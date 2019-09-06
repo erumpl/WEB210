@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {font-family:Trebuchet MS, sans-serif;}
+#grad {background:radial-gradient(#ddd, #666);}
+.nav {float:left; clear:both; position:fixed; top:85px; list-style-type:none; margin:0; padding:0; width:18%; background-color:lightblue; color:navy; font-size:16px; line-height:28px;}
+.nav-li {border:1px solid navy;}
+.nav-li a {display:block; text-decoration:none; font-weight:bold; padding:5px 5px 5px 10px; color:navy; box-shadow:inset 0px 0px 20px snow;}
+.nav-li a.active {background-color:greenyellow; color:darkgreen;}
+.nav-li a:hover:not(.active) {background-color:mediumseagreen; color:snow;}
+.content {float:right; width:80%; font-size:16px; padding-right:1%; text-align:justify;}
+.content a {text-decoration:none; color:navy; font-weight:bold;}
+.content a:hover {color:greenyellow;}
+h1 {font-variant:small-caps; letter-spacing:2px; color:navy; font-family:inherit; font-weight:bolder;}
+h2 {font-variant:small-caps; color:navy; font-family:inherit;}
+h3 {color:navy; font-family:inherit;}
+h4 {color:navy; font-family:inherit; font-style:italic;}
+b {color:navy;}
+.disclaimer {font-size:12px;}
+#bold-a {color:greenyellow;}
+#bold-a:hover {color:lightblue;}
+#resources {background-image:url('images/network.jpg'); background-size:60%; width:60%; padding:10px 20px; border-radius:10px; margin-bottom:20px;}
+#resource-text {text-align:left; color:snow;}
+#resource-text a {color:mediumseagreen;}
+#resource-text a:hover {color:greenyellow;}
+#list {width:60%;}
+#list-li {margin-top:10px;}
+.item-a {width:300px; height:168px; background-image:url('images/html.jpg'); background-size:300px 168px; border:2px solid snow;}
+.item-a:hover > .overlay {width:300px; height:168px; background-color:#000; opacity:0.5;}
+.a-text {width:300px; padding-top:54px; text-align:center; color:snow; text-shadow:black 1px 1px 2px; font-size:48px;}
+.item-b {width:300px; height:168px; background-image:url('images/java.jpg'); background-size:300px 168px; border:2px solid snow;}
+.item-b:hover > .overlay {width:300px; height:168px; background-color:#000; opacity:0.5;}
+.b-text {width:300px; padding-top:54px; text-align:center; color:snow; text-shadow:black 1px 1px 2px; font-size:48px;}
+.item-c {width:300px; height:168px; background-image:url('images/codes.jpg'); background-size:300px 168px; border:2px solid snow;}
+.item-c:hover > .overlay {width:300px; height:168px; background-color:#000; opacity:0.5;}
+.c-text {width:300px; padding-top:36px; text-align:center; color:snow; text-shadow:black 1px 1px 2px; font-size:30px;}
+.item-d {width:300px; height:168px; background-image:url('images/seo.png'); background-size:300px 168px; border:2px solid snow;}
+.item-d:hover > .overlay {width:300px; height:168px; background-color:#000; opacity:0.5;}
+.d-text {width:300px; padding-top:54px; text-align:center; color:snow; text-shadow:black 1px 1px 2px; font-size:48px;}
+.item-e {width:300px; height:168px; background-image:url('images/compsci.jpg'); background-size:300px 168px; border:2px solid snow;}
+.item-e:hover > .overlay {width:300px; height:168px; background-color:#000; opacity:0.5;}
+.e-text {width:300px; padding-top:26px; text-align:center; color:snow; text-shadow:black 1px 1px 2px; font-size:48px;}
+.item-f {width:300px; height:168px; background-image:url('images/security.jpg'); background-size:300px 168px; border:2px solid snow;}
+.item-f:hover > .overlay {width:300px; height:168px; background-color:#000; opacity:0.5;}
+.f-text {width:300px; padding-top:26px; text-align:center; color:snow; text-shadow:black 1px 1px 2px; font-size:48px;}

@@ -1,0 +1,47 @@
+/* Colour Palette
+#040404 - rich black
+#d7d9ce - timberwolf (grey)
+#119da4 - blue-green
+#0c7489 - metallic seaweed (blue-ish)
+#13505b - midnight green (dark green-blue)
+----------------------*/
+
+
+/* Global styles
+----------------------*/
+body {
+	background:#040404;
+	color:#d7d9ce;
+	}
+
+a {
+	text-decoration:none;
+	color:#119da4;
+	font-weight:bold;
+	}
+
+a:hover {
+	font-style:italic;
+	}
+
+/* Header and Footer
+----------------------*/
+header, footer {
+	background:#13505b;
+	}
+
+header h1, header h2 {
+	color:#5eacba;
+	}
+
+/* Work Experience
+----------------------*/
+.work {
+	background:#0c7489;
+	}
+
+/* Education
+----------------------*/
+.education {
+	background:#0c7489;
+	}
